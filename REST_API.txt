@@ -1,0 +1,64 @@
+{
+  "day": "2019-08-24",
+  "vehicles": [
+    {
+      "id": "string",
+      "capacityKg": 0,
+      "maxDurationSeconds": 0,
+      "currentSoc": 0,
+      "batteryInfo": {
+        "capacityWh": 0
+      },
+      "cabinProperties": {
+        "desiredCabinTemperatureC": 0
+      },
+      "freightProperties": {
+        "desiredBoxTemperatureC": 0
+      },
+      "homeLocation": {
+        "longitude": 0,
+        "latitude": 0
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "string",
+      "pickup": {
+        "type": "PICKUP",
+        "location": {
+          "longitude": 0,
+          "latitude": 0
+        },
+        "timewindow": {
+          "start": "2019-08-24T14:15:22Z",
+          "end": "2019-08-24T14:15:22Z"
+        },
+        "serviceTimeMinutes": 0
+      },
+      "delivery": {
+        "type": "PICKUP",
+        "location": {
+          "longitude": 0,
+          "latitude": 0
+        },
+        "timewindow": {
+          "start": "2019-08-24T14:15:22Z",
+          "end": "2019-08-24T14:15:22Z"
+        },
+        "serviceTimeMinutes": 0
+      },
+      "weightKg": 0,
+      "freightTemperatureCelsius": 0
+    }
+  ],
+  "environment": {
+    "ambientTemperatureForecastCelsius": {
+      "startTime": "2019-08-24T14:15:22Z",
+      "stepSizeMinutes": 0,
+      "values": [
+        0
+      ]
+    }
+  }
+}
